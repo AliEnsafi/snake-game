@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>snake game</title>
+</head>
+
+<body>
+    <div id="game-body">
+        <div id="score" class="mb-5">0</div>
+        <canvas id="gameCanvas" width="350" height="400"></canvas>
+
+        <!-- when game finished -->
+        <p class="finishGame mt-3 pt-4"></p>
+        <p class="EndScore"></p>
+        <div class="startgame">
+            <h1>Click the btn to start game</h1>
+            <button class="startgame-btn mt-3">lets go</button>
+        </div>
+        <button class="PlayAgain">Play Again</button>
+
+        <!-- explain game -->
+        <div class="explaingame mt-5 mt-lg-0">
+            <div class="row">
+                <div class="col-sm-6 text-center">click to <span><i class="glyphicon glyphicon-arrow-right"></i></span>
+                    key for move to right</div>
+                <div class="col-sm-6 text-center">click to <span><i class="glyphicon glyphicon-arrow-left"></i></span>
+                    key for move to left</div>
+                <div class="col-sm-6 text-center">click to <span><i class="glyphicon glyphicon-arrow-up"></i></span> key
+                    for move to up</div>
+                <div class="col-sm-6 text-center">click to <span><i class="glyphicon glyphicon-arrow-down"></i></span>
+                    key for move to bottom</div>
+            </div>
+        </div>
+
+        <!-- restart and pause btns -->
+        <div class="row d-flex justify-content-center">
+            <div class="restartGame col-sm-6 my-3">
+                <button class="restart">Restart</button>
+            </div>
+            <div class="pauseGame col-sm-6 my-3">
+                <button class="pause">Pause</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

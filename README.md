@@ -1,3 +1,3 @@
 # snake-game
-make snake game with javascript
-use canvas
+### make snake game with javascript
+#### use canvas
